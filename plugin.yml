@@ -1,0 +1,25 @@
+---
+name: FeedHeal
+version: 1.2.0
+main: Julicraft_44\FeedHeal\Main
+api: 3.0.0
+author: Julicraft_44
+
+commands:
+    heal:
+        description: Heals you and other players
+        #usage: /heal <Player>
+        permission: feedheal.heal
+    feed:
+        description: Feeds you and other players
+        #usage: /feed <Player>
+        permission: feedheal.feed
+        
+permissions:
+    feedheal.heal:
+        description: FeedHeal Heal Permission
+        default: op
+    feedheal.feed:
+        description: FeedHeal Feed Permission
+        default: op
+...

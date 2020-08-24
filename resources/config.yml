@@ -1,0 +1,24 @@
+---
+#DO NOT EDIT This
+#THIS IS ONLY FOR DEV
+version: 1.2
+
+
+no-permission: "You haven't any permissions to run this command"
+
+not-found: "§cI can't find this player"
+
+success-heal: "§a§aYou have been healed"
+
+success-target-heal: "§aYou have been healed by %send_name"
+
+success-sender-heal: "§cYou healed %tar_name"
+
+success-feed: "§a You habe been feeded"
+
+success-target-feed: "§aYou have been feeded by %send_name"
+
+success-sender-feed: "§cYou feeded %tar_name"
+
+
+...
