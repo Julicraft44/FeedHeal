@@ -102,6 +102,7 @@ class Main extends PluginBase implements Listener {
 							$tar_name = $target->getName();
 					
 							$target->setFood($target->getMaxFood());
+							$target->setSaturation(20);
 					
 							$msg = $this->getConfig()->get("success-target-feed");
 							$msg = str_replace("%send_name", "$send_name", $msg);
